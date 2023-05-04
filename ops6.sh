@@ -1,7 +1,7 @@
-#1/bin/bash
+#!/bin/bash
 
 #Array of directories
-directories=["dir1" "dir2" "dir3"]
+directories=("dir1" "dir2" "dir3")
 
 #Loop through the array
 for directory in "${directories[@]}"; do
